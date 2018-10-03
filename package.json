@@ -1,0 +1,44 @@
+{
+  "name": "react-single-page-app",
+  "version": "1.0.0",
+  "description": "sing-page-app by react",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhao9426/react-single-page-app.git"
+  },
+  "keywords": [
+    "SPA",
+    "react"
+  ],
+  "author": "laitou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhao9426/react-single-page-app/issues"
+  },
+  "homepage": "https://github.com/zhao9426/react-single-page-app#readme",
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^4.1.0",
+    "pubsub-js": "^1.7.0",
+    "react-hot-loader": "^4.3.11",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
